@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox_Layout</title>
+    <style>
+        .container{
+            border: 2px solid salmon;
+            display: flex;
+            /* aita default a thake
+            justify-content: flex-start; */
+            /* justify-content: flex-end; */
+            /* justify-content: center; */
+            
+            /* horizantal vabe kj kre,, maje faka or site a faka korar jnno ai kaj kra hoi */
+            /* justify-content: space-around; */
+            /* justify-content: space-between; */
+            /* justify-content: space-evenly; */
+            height: 250px;
+
+            /* Verticle vabe kaj krar jnno this tag use kra hoi */
+           /* align-items: flex-start; */
+           /* align-items: flex-end; */
+           /* align-items: center; */
+
+           /* flex row or column vabe and reverse vabe kaj korar jnno this tag */
+           /* flex-direction: row; */
+           /* flex-direction: row-reverse; */
+           /* flex-direction: column;
+           flex-direction: column-reverse; */
+/* 
+           ai tag use kra hoi ek line a jaiga na hoile porar line a chole jbe
+           flex-wrap: wrap; */
+           /* wrap krle niche jeta asar khota oita upore chole jbe
+           flex-wrap: wrap-reverse; */
+           
+        }
+        .box{
+            border: 2px dashed tomato;
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flexbox-Layout</h1>
+    <div class="container">
+        <!-- .box{box-$}*3 -->
+         <div class="box">box-1</div>
+         <div class="box">box-2</div>
+         <div class="box">box-3</div>
+         <div class="box">box-4</div>
+         <div class="box">box-4</div>
+         <div class="box">box-4</div>
+         <div class="box">box-5</div>
+         <div class="box">box-6</div>
+    </div>
+</body>
+</html>
